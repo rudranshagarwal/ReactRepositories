@@ -1,0 +1,95 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-section,
+  .right-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-section {
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .stats-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .stats p {
+    margin: 5px 0;
+  }
+  
+  .issues-fixed {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #6200ea;
+  }
+  
+  .percentage {
+    color: green;
+  }
+  
+  .right-section {
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .tab:hover {
+    background-color: #ddd;
+  }
+  
+  .login-options {
+    margin: 20px 0;
+  }
+  
+  .login-btn {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    background-color: #6200ea;
+    color: #fff;
+    cursor: pointer;
+    width: 80%;
+  }
+  
+  .login-btn:hover {
+    background-color: #3700b3;
+  }
+  
+  .privacy-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  

@@ -6,8 +6,8 @@ Start: `npm run dev`
 
 ---
 
-#Pages
+# Pages
 
-/ - Login Page. One can Toggle the Button to see the change  
+/ - Login Page: One can Toggle the Button to see the change  
 
 /Repositories - Repositories Page: One can search for repositories and also add new repositories
